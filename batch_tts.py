@@ -5,8 +5,8 @@ from pathlib import Path
 import edge_tts
 
 # ====== 配置区 ======
-INPUT_DIR = Path(r".\txts")
-OUTPUT_DIR = Path(r".\mp3")
+INPUT_DIR = Path(r"./txts")
+OUTPUT_DIR = Path(r"./mp3")
 
 # 推荐中文女声（自然、清晰）
 VOICE = "zh-CN-YunxiaNeural"   # 女声
